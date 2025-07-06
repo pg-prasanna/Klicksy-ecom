@@ -1,0 +1,6 @@
+INSERT INTO product (name, desc, brand, price, category, release_date, available, quantity) VALUES
+                                                                                                ('iPhone 14', 'Latest iPhone model with A15 Bionic chip', 'Apple', 799.99, 'Smartphones', '2023-09-15', true, 50),
+                                                                                                ('Galaxy S23', 'Flagship Samsung smartphone with high refresh rate display', 'Samsung', 749.99, 'Smartphones', '2023-10-01', true, 40),
+                                                                                                ('Sony WH-1000XM5', 'Wireless noise-cancelling headphones', 'Sony', 349.99, 'Audio', '2023-08-10', true, 25),
+                                                                                                ('MacBook Air M2', 'Apple laptop with M2 chip and 18-hour battery life', 'Apple', 1099.99, 'Laptops', '2023-07-05', true, 15),
+                                                                                                ('Logitech MX Master 3S', 'Wireless mouse with ergonomic design and silent clicks', 'Logitech', 99.99, 'Accessories', '2023-06-25', true, 30);
