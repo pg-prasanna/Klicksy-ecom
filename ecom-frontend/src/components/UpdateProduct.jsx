@@ -54,7 +54,6 @@ const UpdateProduct = () => {
   const handleSubmit = async(e) => {
     e.preventDefault();
     
-    // Validate required fields
     const requiredFields = ['name', 'brand', 'price', 'category', 'stockQuantity'];
     const missingFields = requiredFields.filter(field => !updateProduct[field]);
     
@@ -63,14 +62,12 @@ const UpdateProduct = () => {
       return;
     }
 
-    // Parse numeric values
     const parsedProduct = {
       ...updateProduct,
       price: parseFloat(updateProduct.price) || 0,
       stockQuantity: parseInt(updateProduct.stockQuantity) || 0,
     };
 
-    // Validate numeric values
     if (parsedProduct.price <= 0 || parsedProduct.stockQuantity < 0) {
       alert('Please enter valid price and stock quantity');
       return;
