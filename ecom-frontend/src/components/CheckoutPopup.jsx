@@ -22,7 +22,7 @@ const CheckoutPopup = ({ show, handleClose, cartItems, totalPrice, handleCheckou
             </div>
           ))}
           <div >
-            <h5 style={{color:'black' , display:'flex',justifyContent:'center',fontSize:'1.3rem', fontWeight:'bold'}} >Total: ${totalPrice}</h5>
+            <h5 style={{color:'black' , display:'flex',justifyContent:'center',fontSize:'1.3rem', fontWeight:'bold'}} >Total: ₹{totalPrice}</h5>
           </div>
         </div>
       </Modal.Body>
